@@ -16,7 +16,10 @@ const Calculator = () => {
       } catch (err) {
         setResult("Error");
       }
-    } else {
+    } 
+   
+    
+    else {
       setInput(input + value);
     }
   };
